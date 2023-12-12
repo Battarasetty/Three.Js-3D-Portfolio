@@ -23,6 +23,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    Delcom1,
+    Everrise,
+    HousingEstate,
+    Youtubeclone,
 } from "../assets";
 
 export const navLinks = [
@@ -45,18 +49,18 @@ const services = [
         title: "Web Developer",
         icon: web,
     },
-    {
-        title: "React Native Developer",
-        icon: mobile,
-    },
+    // {
+    //     title: "React Native Developer",
+    //     icon: mobile,
+    // },
     {
         title: "Backend Developer",
         icon: backend,
     },
-    {
-        title: "Content Creator",
-        icon: creator,
-    },
+    // {
+    //     title: "Content Creator",
+    //     icon: creator,
+    // },
 ];
 
 const technologies = [
@@ -108,19 +112,19 @@ const technologies = [
         name: "figma",
         icon: figma,
     },
-    {
-        name: "docker",
-        icon: docker,
-    },
+    // {
+    //     name: "docker",
+    //     icon: docker,
+    // },
 ];
 
 const experiences = [
     {
         title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        company_name: "Everrise Tech Pvt Ltd",
+        icon: Everrise,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "Nov 2022 - Nov 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -128,43 +132,43 @@ const experiences = [
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    // {
+    //     title: "React Native Developer",
+    //     company_name: "Tesla",
+    //     icon: tesla,
+    //     iconBg: "#E6DEDD",
+    //     date: "Jan 2021 - Feb 2022",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
+    // {
+    //     title: "Web Developer",
+    //     company_name: "Shopify",
+    //     icon: shopify,
+    //     iconBg: "#383E56",
+    //     date: "Jan 2022 - Jan 2023",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
     {
         title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        company_name: "Delcom Tech Pvt Ltd",
+        icon: Delcom1,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "July 2021 - Nov 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Designed a complex E-commerce web application utilizing React.js, HTML, CSS, and JavaScript.",
+            "Implemented functional React reusable components, React Hooks, and Styled Components to enhance project maintainability.",
+            "Implemented security best practices, including data encryption input validation, and protection against common web issues, to safeguard the E-commerce application from potential threats.",
+            "Executed CRUD operations in Node.js along with data retrieval using queries and various MongoDB methods.",
         ],
     },
 ];
@@ -198,9 +202,9 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Housing Estate",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Web-based platform that allows users to search, book, and manage Houses from various providers (Brokers), providing a convenient and efficient solution for Household needs.",
         tags: [
             {
                 name: "react",
@@ -215,49 +219,49 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
+        image: HousingEstate,
         source_code_link: "https://github.com/",
     },
+    // {
+    //     name: "Job IT",
+    //     description:
+    //         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    //     tags: [
+    //         {
+    //             name: "react",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "restapi",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "scss",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: jobit,
+    //     source_code_link: "https://github.com/",
+    // },
     {
-        name: "Job IT",
+        name: "Youtube Application",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "A personal project which resumbles as same as Youtube Application, in overall Funcationality like Searching, Filtering, Pagination, Navbar, Sidebar, CommentsSection,Authentication, etc.. ",
         tags: [
             {
-                name: "react",
+                name: "React.JS",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "JavaScript",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "Scss",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
+        image: Youtubeclone,
         source_code_link: "https://github.com/",
     },
 ];

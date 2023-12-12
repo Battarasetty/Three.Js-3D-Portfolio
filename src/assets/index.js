@@ -29,6 +29,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import Delcom1 from './Delcom1.png'
+import Everrise from './Everrise.png'
+import HousingEstate from './HousingEstate.png'
+import Youtubeclone from './Youtubeclone.png'
 
 export {
   logo,
@@ -59,4 +63,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  Delcom1,
+  Everrise,
+  HousingEstate,
+  Youtubeclone,
 };
