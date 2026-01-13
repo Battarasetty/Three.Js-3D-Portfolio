@@ -27,12 +27,14 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import etiled from "./ETiled.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import Delcom1 from './Delcom1.png'
 import Everrise from './Everrise.png'
 import HousingEstate from './HousingEstate.png'
 import Youtubeclone from './Youtubeclone.png'
+import dockerImage from './docker.png'
 
 export {
   logo,
@@ -67,4 +69,6 @@ export {
   Everrise,
   HousingEstate,
   Youtubeclone,
+  etiled,
+  dockerImage,
 };

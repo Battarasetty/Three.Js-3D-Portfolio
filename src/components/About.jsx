@@ -45,16 +45,23 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-6xl leading-[30px]'
+        className="mt-4 text-secondary text-[17px] max-w-6xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I’m a frontend-focused software engineer with 3+ years of experience
+        building scalable, high-performance web applications using React,
+        Next.js, and modern JavaScript. I specialize in designing robust UI
+        systems, handling complex async state, and building permission-driven
+        interfaces using RBAC.
+        <br /><br />
+        I’ve worked on real-time, data-intensive dashboards, optimized frontend
+        performance through debouncing, caching, memoization, and list
+        virtualization, and collaborated closely with backend, AI, and product
+        teams to deliver secure, production-ready features. I actively practice
+        DSA and frontend system design, focusing on clean architecture,
+        scalability, and long-term maintainability.
       </motion.p>
 
-      <div className='mt-20 items-center justify-center flex flex-wrap gap-10'>
+      <div className="mt-20 flex flex-wrap items-center justify-center gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
