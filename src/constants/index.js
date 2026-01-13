@@ -45,132 +45,66 @@ export const navLinks = [
 ];
 
 const services = [
-    {
-        title: "Web Developer",
-        icon: web,
-    },
-    // {
-    //     title: "React Native Developer",
-    //     icon: mobile,
-    // },
-    {
-        title: "Backend Developer",
-        icon: backend,
-    },
-    // {
-    //     title: "Content Creator",
-    //     icon: creator,
-    // },
+  {
+    title: "Frontend Engineer",
+    icon: web,
+  },
+  {
+    title: "Full-Stack Engineer (React + Node)",
+    icon: backend,
+  },
+  {
+    title: "Frontend System Designer",
+    icon: creator,
+  },
 ];
+
 
 const technologies = [
-    {
-        name: "HTML 5",
-        icon: html,
-    },
-    {
-        name: "CSS 3",
-        icon: css,
-    },
-    {
-        name: "JavaScript",
-        icon: javascript,
-    },
-    {
-        name: "TypeScript",
-        icon: typescript,
-    },
-    {
-        name: "React JS",
-        icon: reactjs,
-    },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
-    {
-        name: "Node JS",
-        icon: nodejs,
-    },
-    {
-        name: "MongoDB",
-        icon: mongodb,
-    },
-    {
-        name: "Three JS",
-        icon: threejs,
-    },
-    {
-        name: "git",
-        icon: git,
-    },
-    {
-        name: "figma",
-        icon: figma,
-    },
-    // {
-    //     name: "docker",
-    //     icon: docker,
-    // },
+  { name: "HTML 5", icon: html },
+  { name: "CSS 3", icon: css },
+  { name: "JavaScript (ES6+)", icon: javascript },
+  { name: "TypeScript", icon: typescript },
+  { name: "React JS", icon: reactjs },
+  { name: "Next.js", icon: reactjs }, // reuse icon if Next icon not available
+  { name: "Redux / Context API", icon: redux },
+  { name: "Tailwind CSS", icon: tailwind },
+  { name: "Node.js", icon: nodejs },
+  { name: "MongoDB", icon: mongodb },
+  { name: "Git", icon: git },
+  { name: "Docker", icon: docker },
+  { name: "Figma", icon: figma },
 ];
 
+
 const experiences = [
-    {
-        title: "React.js Developer",
-        company_name: "Everrise Tech Pvt Ltd",
-        icon: Everrise,
-        iconBg: "#383E56",
-        date: "Nov 2022 - Nov 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    // {
-    //     title: "React Native Developer",
-    //     company_name: "Tesla",
-    //     icon: tesla,
-    //     iconBg: "#E6DEDD",
-    //     date: "Jan 2021 - Feb 2022",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
-    // {
-    //     title: "Web Developer",
-    //     company_name: "Shopify",
-    //     icon: shopify,
-    //     iconBg: "#383E56",
-    //     date: "Jan 2022 - Jan 2023",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
-    {
-        title: "Full stack Developer",
-        company_name: "Delcom Tech Pvt Ltd",
-        icon: Delcom1,
-        iconBg: "#E6DEDD",
-        date: "July 2021 - Nov 2022",
-        points: [
-            "Designed a complex E-commerce web application utilizing React.js, HTML, CSS, and JavaScript.",
-            "Implemented functional React reusable components, React Hooks, and Styled Components to enhance project maintainability.",
-            "Implemented security best practices, including data encryption input validation, and protection against common web issues, to safeguard the E-commerce application from potential threats.",
-            "Executed CRUD operations in Node.js along with data retrieval using queries and various MongoDB methods.",
-        ],
-    },
+   {
+    title: "Software Engineer – Frontend",
+    company_name: "Entitled Arts Pvt Ltd",
+    icon: meta, // replace with actual logo if available
+    iconBg: "#1E293B",
+    date: "Jan 2024 – Present",
+    points: [
+      "Built enterprise-grade AI surveillance dashboards used across 50+ residential and commercial properties.",
+      "Designed and implemented multi-tenant RBAC and permission-driven UI architecture, reducing authorization issues by 40%.",
+      "Developed real-time dashboards handling 1,000+ daily events with robust async state management.",
+      "Improved UI performance using debouncing, request cancellation, caching, memoization, and virtualization.",
+      "Collaborated closely with backend, AI, and product teams to deliver scalable, secure frontend systems.",
+    ],
+  },
+     {
+    title: "Frontend Developer",
+    company_name: "EverRise Technologies Pvt Ltd",
+    icon: Everrise,
+    iconBg: "#383E56",
+    date: "Aug 2022 – Dec 2023",
+    points: [
+      "Developed decentralized Web3 applications with direct smart contract interactions.",
+      "Built staking, vault, and token-locking dashboards used by 10,000+ users.",
+      "Implemented optimistic UI updates with retries and rollback handling.",
+      "Handled complex async flows including wallet connections, transaction states, and error recovery.",
+    ],
+  },
 ];
 
 const testimonials = [
