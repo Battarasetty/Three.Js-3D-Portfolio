@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  Everrise,
+  etiled,
 } from "../assets";
 
 export const navLinks = [
@@ -118,7 +120,7 @@ const experiences = [
   {
     title: "Software Engineer — Frontend & Full-Stack",
     company_name: "Entitled Arts Pvt Ltd",
-    icon: starbucks,
+    icon: etiled,
     iconBg: "#383E56",
     date: "January 2024 – Present",
     points: [
@@ -131,7 +133,7 @@ const experiences = [
   {
     title: "Frontend & Full-Stack Developer",
     company_name: "EverRise Technologies Pvt Ltd",
-    icon: tesla,
+    icon: Everrise,
     iconBg: "#E6DEDD",
     date: "August 2022 – December 2023",
     points: [
@@ -139,19 +141,6 @@ const experiences = [
       "Integrated MetaMask and WalletConnect with full wallet lifecycle management; implemented ERC-20 token approval flows, smart contract read/write via ethers.js, and complete transaction lifecycle UI (pending → confirming → confirmed → failed).",
       "Engineered optimistic UI to mask blockchain latency with instant feedback and automatic rollback on transaction revert; built parallel cross-chain state fetching using Promise.allSettled across 5 networks.",
       "Contributed backend REST API endpoints for token metadata, multi-chain stake position aggregation, and blockchain data integration using Node.js and Express — platform featured in CoinTelegraph, Yahoo Finance, and Business Insider.",
-    ],
-  },
-  {
-    title: "Frontend Developer Intern",
-    company_name: "Entitled Arts Pvt Ltd",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "June 2022 – August 2022",
-    points: [
-      "Contributed to early-stage UI development for internal web applications using React.js and Tailwind CSS.",
-      "Built reusable component libraries and implemented responsive layouts across desktop and tablet breakpoints.",
-      "Collaborated directly with senior engineers and designers to ship production features on time.",
-      "Converted Adobe XD designs to pixel-perfect React components, establishing frontend conventions used throughout the product.",
     ],
   },
 ];
@@ -225,7 +214,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/Battarasetty/everrise-defi",
+    source_code_link: "https://github.com/Battarasetty/everrise-defi-platform", 
     live_link: "https://www.everrise.com/",
   },
   {
