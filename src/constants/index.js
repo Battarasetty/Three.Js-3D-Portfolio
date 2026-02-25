@@ -120,7 +120,7 @@ const experiences = [
   {
     title: "Software Engineer — Frontend & Full-Stack",
     company_name: "Entitled Arts Pvt Ltd",
-    icon: etiled,
+    icon: starbucks,
     iconBg: "#383E56",
     date: "January 2024 – Present",
     points: [
@@ -133,7 +133,7 @@ const experiences = [
   {
     title: "Frontend & Full-Stack Developer",
     company_name: "EverRise Technologies Pvt Ltd",
-    icon: Everrise,
+    icon: tesla,
     iconBg: "#E6DEDD",
     date: "August 2022 – December 2023",
     points: [
