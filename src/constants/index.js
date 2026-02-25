@@ -226,7 +226,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/Battarasetty/everrise-defi",
-    live_link: "https://v3app.everrise.com/everswap",
+    live_link: "https://www.everrise.com/",
   },
   {
     name: "3D Developer Portfolio",
